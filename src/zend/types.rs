@@ -4,7 +4,6 @@ use std::ptr::null;
 use std::ffi::{CString, CStr};
 use std::{slice, fmt};
 use std::fmt::{Debug, Formatter};
-use crate::zend::php_echo;
 
 pub struct ExecuteData {}
 pub struct ModuleDep {}
